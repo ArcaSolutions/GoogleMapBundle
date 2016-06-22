@@ -1,19 +1,25 @@
 {
-    "name": "egeloen/google-map-bundle",
+    "name": "arcasolutions/google-map-bundle",
     "type": "symfony-bundle",
     "description": "Provides a google map integration for your Symfony2 Project.",
-    "keywords": [ "google map" ],
+    "keywords": [ "google map symfony2" ],
     "license": "MIT",
     "authors": [
         {
+            "name": "Diego Mosela",
+            "email": "diego.mosela@arcasolutions.com",
+            "role": "Developer"
+        },
+        {
             "name": "Eric GELOEN",
-            "email": "geloen.eric@gmail.com"
+            "email": "geloen.eric@gmail.com",
+            "role": "owner"
         }
     ],
     "require": {
         "php": ">=5.3.0",
         "symfony/framework-bundle": "~2.1",
-        "egeloen/google-map": "~1.4.0"
+        "arcasolutions/google-map": "1.0.*"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0",
@@ -29,10 +35,5 @@
     },
     "config": {
         "bin-dir": "bin/"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.2-dev"
-        }
     }
 }
